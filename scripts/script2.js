@@ -1,4 +1,4 @@
-
+/* JQUERY - navigation function */
 
 $("#show-index").click(function() {
     $(".index-description-title.introduction").show();
