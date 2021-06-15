@@ -158,10 +158,6 @@
       color: white;
   }
   
-  #information-text {
-      mix-blend-mode: difference;
-  }
-  
   .index-item-title-description {
       font-family: Inter;
       font-weight: 200;
@@ -228,6 +224,7 @@
   
   span.name.information {
       z-index: -99999;
+      opacity: 0.5;
   }
   
   #nav-center {
