@@ -158,6 +158,10 @@
       color: white;
   }
   
+  #information-text {
+      mix-blend-mode: difference;
+  }
+  
   .index-item-title-description {
       font-family: Inter;
       font-weight: 200;
@@ -477,7 +481,7 @@
       .index-description-title,
       .index-item-header,
       .index-content-description,
-      #information {
+      #information-text {
           padding: 0em 1em;
       }
       .index-item-container {
