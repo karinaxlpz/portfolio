@@ -129,6 +129,7 @@
   a:hover {
       color: darkgray;
       transition: 0.4s;
+      mix-blend-mode: normal;
   }
   /* index */
   
@@ -263,6 +264,10 @@
   
   .links a {
       margin-right: 1em;
+  }
+  
+  .links.information {
+      mix-blend-mode: difference;
   }
   
   #selected-artwork,
