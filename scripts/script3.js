@@ -1,4 +1,4 @@
-// HORIZONTAL SCROLL
+// HORIZONTAL SCROLL (not applied)
 const slider = document.querySelector('.img-slider');
 var imgs = slider.getElementsByTagName('img');
 // = [];
