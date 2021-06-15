@@ -199,7 +199,7 @@
   header {
       position: absolute;
       z-index: 999999;
-      padding-top: 0.5em;
+      /* padding-top: 0.5em; */
   }
   
   .name {
@@ -231,6 +231,8 @@
       position: fixed;
       text-align: center;
       width: 100%;
+      padding-top: 0.5em;
+      padding-bottom: 0;
   }
   
   #nav-center button {

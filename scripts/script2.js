@@ -6,6 +6,7 @@ $("#show-index").click(function() {
     $("#selected-clientwork").show();
     $("#homepage").hide();
     $("#information").hide();
+    $("#nav-center").css("background-color", "black");
 });
 
 $("#show-homepage").click(function() {
@@ -14,6 +15,7 @@ $("#show-homepage").click(function() {
     $("#selected-artwork").hide();
     $("#selected-clientwork").hide();
     $("#information").hide();
+    $("#nav-center").css("background-color", "transparent");
 });
 
 $("#show-information").click(function() {
@@ -22,4 +24,5 @@ $("#show-information").click(function() {
     $("#selected-artwork").hide();
     $("#selected-clientwork").hide();
     $("#homepage").hide();
+    $("#nav-center").css("background-color", "black");
 });
