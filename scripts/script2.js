@@ -2,6 +2,7 @@
 
 $("#show-index").click(function() {
     $(".index-description-title.introduction").show();
+    $(".index").css("display", "block");
     $("#selected-artwork").show();
     $("#selected-clientwork").show();
     $("#homepage").hide();
